@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+
+<body>
+    <div class="item-container">
+        <div class="title">图</div>
+        <div class="item">
+            <label for="graphVertexInp">顶点</label>
+            <input id="graphVertexInp" />
+            <button type="button" id="graphVertexAddBtn">加入</button>
+            <button type="button" id="graphClearBtn">清空</button>
+        </div>
+        <div class="item">
+            <label for="graphVInp">边</label>
+            <input id="graphVInp" />
+            <label for="graphWInp">-></label>
+            <input id="graphWInp" />
+            <button type="button" id="graphEdgeAddBtn">添加</button>
+        </div>
+        <div class="item">
+            <label for="graphResArea"></label>
+            <textarea id="graphResArea" disabled></textarea>
+        </div>
+    </div>
+    <hr />
+
+    <div class="item-container">
+        <div class="title">字典</div>
+        <div class="item">
+            <label for="dictionaryKeyInp">键</label>
+            <input id="dictionaryKeyInp" />
+            <label for="dictionaryValInp">值</label>
+            <input id="dictionaryValInp" />
+            <button type="button" id="dictionarySetBtn">添加</button>
+        </div>
+        <div class="item">
+            <label for="dictionaryDelInp">键</label>
+            <input id="dictionaryDelInp" />
+            <button type="button" id="dictionaryDelBtn">删除</button>
+            <button type="button" id="dictionaryClearBtn">清空</button>
+        </div>
+        <div class="item">
+            <label for="ResArea"></label>
+            <textarea id="dictionaryResArea" disabled></textarea>
+        </div>
+    </div>
+    <hr />
+
+    <div class="item-container">
+        <div class="title">队列</div>
+        <div class="item">
+            <label for="enqueueInp">入值</label>
+            <input id="enqueueInp" />
+            <button type="button" id="enqueueBtn">入列</button>
+        </div>
+        <div class="item">
+            <label for="dequeueInp">出值</label>
+            <input id="dequeueInp" disabled />
+            <button type="button" id="dequeueBtn">出列</button>
+        </div>
+        <div class="item">
+            <button type="button" id="queueClearBtn">清空</button>
+        </div>
+        <div class="item">
+            <label for="queueResArea"></label>
+            <textarea id="queueResArea" disabled></textarea>
+        </div>
+    </div>
+    <hr />
+
+    <script type="module" src="./JS/index.js"></script>
+</body>
+
+</html>
